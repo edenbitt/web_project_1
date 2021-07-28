@@ -154,10 +154,6 @@ ul {
     list-style: none;
 }
 
-.digits__table-text {
-    padding-left: 0;
-}
-
 .digits__table-text li {
     margin-top: 20px;
 }
@@ -185,6 +181,7 @@ ul {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    padding-left: 0;
 }
 
 .feynman {
@@ -198,7 +195,6 @@ ul {
 
 .feynman__smain-illustration {
     z-index: -1;
-    left: 0;
     position: absolute;
     height: 637px;
     width: 867px;
@@ -284,11 +280,6 @@ ul {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
-}
-
-.table__cell_theme_dark {
-    width: 200px;
-    margin-top: 80px;
 }
 
 .table__heading_theme_dark {
