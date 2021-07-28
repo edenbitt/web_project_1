@@ -3,28 +3,185 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Learning how to learn</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-
+      <div class="logo logo_place_header"><img src="images/logo_place_header.png"></div>
+      <h1 class="header__title">Learning How to Learn</h1>
+      <h2 class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life. </h2>
+      <div class="header__link"> Learn more →</div>
+      <div class="header__smain-illustration"><img src="images/header-image.png" alt="Epic ponderer stood on a mountaintop
+        deliberating over the finer points of the modern educational
+        system, while also wondering where that giant blue square came
+        from."></div>
+      <div class="header__square-pic"></div>
     </header>
     <main class="content">
       <section class="description">
+        <!-- TODO: change to BEM standards -->
+        <div class="two-columns">
+          <h2 class="brief">The main problem with education</h2>
+          <div class="main-text">
+            <p>Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing information so that when exam time comes around, we pass the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be retained. In the end, we're really just learning how to pass our tests. </p>
+            <p><span class="span-accent">Here's the real question:</span> does this approach of repetition and memorization help us truly understand the subject material? The academic consensus nowadays is that it doesn't. In fact, what's more important than any individual topic is knowing how to study, but for some reason, this point is often overlooked. So, what can we do to remedy this?</p>
+            <p>Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.</p>
+          </div>
+        </div>
       </section>
 
       <section class="digits">
+          <div class="digits__section-title"><h1>Facts and figures</h1></div>
+          <div class="digits__section-subtitle"><h2>On learning and the brain</h2></div>
+          <ul class="digits__table">
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">86 billion</div>
+              <ul class="digits__table-text">
+                <li>The number of neurons in the human brain</li>
+              </ul>
+            </li>
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">73%</div>
+              <ul class="digits__table-text">
+                <li>The percentage of adults in the US who consider themselves lifelong learners</li>
+                <li>Pew Research Center</li>
+              </ul>
+            </li>
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">1,000 terabytes</div>
+              <ul class="digits__table-text">
+                <li>The information storage capacity of a human</li>
+              </ul>
+            </li>
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">500 trillion</div>
+              <ul class="digits__table-text">
+                <li>The number of nerve synapses responsible for learning in the average adult human</li>
+              </ul>
+            </li>
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">420 million</div>
+              <ul class="digits__table-text">
+                <li>The number of adults under 25 with insufficient education for finding employment</li>
+                <li>World Bank, 2017</li>
+              </ul>
+            </li>
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">26 years old</div>
+              <ul class="digits__table-text">
+                <li>The age at which Albert Einstein published his groundbreaking paper on special relativity</li>
+              </ul>
+            </li>
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">1885</div>
+              <ul class="digits__table-text">
+                <li>Development of the forgetting curve</li>
+              </ul>
+            </li>
+            <li class="digits__table-cell">
+              <div class="digits__table-heading">1897</div>
+              <ul class="digits__table-text">
+                <li>Publication of Ivan Pavlov's research on classical conditioning</li>
+              </ul>
+            </li>
+          </ul>
       </section>
 
       <section class="feynman">
+        <img class="feynman__smain-illustration" src="images/feynman.png" alt="A picture of Richard
+        Feynman, a world-renowned quantum physicist. The Feynman Technique is derived from his studying methods when he was a
+        student at Princeton.">
+        <div class="feynman__title"><h1>The Feynman Technique</h1></div>
+        <div class="feynman__subtitle"><h2>Learn without forgetting</h2></div>
+        <div class="feynman__link">More →</div>
       </section>
-
+<!-- לבודד פרטים של טבלה ולהוסיף מחלקה של קאופמן/דיג'יט -->
       <section class="kaufman">
-      </section>
+        <div class="section-title_theme_dark"><h1>Ten principles of rapid skill acquisition</h1></div>
+        <div class="section-subtitle_theme_dark"><h2>by Josh Kaufman</h2></div>
+        <ul class="table__theme_dark">
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">1</div>
+            <ul class="table__text_theme_dark">
+              <li>Choose a lovable project</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">2</div>
+            <ul class="table__text_theme_dark">
+              <li>Focus your energy on one skill at a time</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">3</div>
+            <ul class="table__text_theme_dark">
+              <li>Define your target performance level</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">4</div>
+            <ul class="table__text_theme_dark">
+              <li>Deconstruct the skill into sub-skills</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">5</div>
+            <ul class="table__text_theme_dark">
+              <li>Obtain critical tools</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">6</div>
+            <ul class="table__text_theme_dark">
+              <li> Eliminate barriers to practice</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">7</div>
+            <ul class="table__text_theme_dark">
+              <li> Make dedicated time for practice</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">8</div>
+            <ul class="table__text_theme_dark">
+              <li>TCreate fast feedback loops</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">9</div>
+            <ul class="table__text_theme_dark">
+              <li>Practice by the clock in short bursts</li>
+            </ul>
+          </li>
+          <li class="table__cell_theme_dark">
+            <div class="table__heading_theme_dark">10</div>
+            <ul class="table__text_theme_dark">
+              <li>Emphasize quantity and speed</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="kaufman__triangle"><img src="images/kaufman-triangle.svg" alt="blue triangle"></div>
+      </section>  
     </main>
     <footer class="footer">
+      <div class="footer__column_content-copyrights"><h3>© 2021</h3></div>
+       <div class="footer__column_content-about"></div>
+      <div class="footer__column-headingt"></div> 
+      <div class="footer__author"></div>
+      <div class="logo logo_place_footer"><img src="images/logo_place_footer.png" alt="footers logo"></div>  
+      <div class="footer__column_content-social"></div>
+      <div><ul class="footer__social-icons">
+      <li><img</li>  
+      </ul></div> 
+      <div class="footer__column-link"></div>
+      <div><ul class="footer__list">
 
+      </ul></div> 
+    
     </footer>
   </div>
 </body>
