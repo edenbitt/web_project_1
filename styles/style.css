@@ -309,6 +309,7 @@ ul {
     padding-top: 60px;
     padding-bottom: 40px;
     display: flex;
+    position: relative;
 }
 
 .footer__column_content-copyrights {
@@ -328,6 +329,11 @@ ul {
     font-weight: normal;
     position: absolute;
     bottom: 0;
+}
+
+.footer__column_content-social {
+    position: absolute;
+    right: 0;
 }
 
 .footer__social-icons {
