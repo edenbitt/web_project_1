@@ -333,6 +333,7 @@ ul {
 .footer__social-icons {
     width: 16px;
     height: 16px;
+    padding-right: 10px;
 }
 
 .footer__column-heading {
@@ -347,5 +348,6 @@ ul {
     font-size: 18px;
     font-weight: normal;
     padding: 0;
-    list-style: none;
 }
+
+.footer__column-link {}
