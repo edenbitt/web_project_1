@@ -65,6 +65,12 @@
     height: 608px;
     width: 756px;
     position: absolute;
+    right: 0;
+    bottom: 28px;
+}
+
+img {
+    max-width: 100%;
 }
 
 
