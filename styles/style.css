@@ -236,6 +236,7 @@ ul {
     position: relative;
     color: white;
     z-index: -10;
+    overflow: hidden;
 }
 
 .table__cell_theme_dark {
@@ -292,7 +293,6 @@ ul {
     position: absolute;
     right: -124px;
     bottom: 0;
-    overflow: hidden;
     z-index: -3;
 }
 
