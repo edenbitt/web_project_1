@@ -73,9 +73,6 @@ img {
     max-width: 100%;
 }
 
-
-/*blue background square*/
-
 .header__square-pic {
     height: 568px;
     width: 568px;
@@ -181,7 +178,6 @@ ul {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
-    padding: left 0;
 }
 
 .feynman {
